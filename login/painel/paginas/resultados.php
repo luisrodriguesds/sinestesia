@@ -109,8 +109,8 @@
 								  					if ($exames == false) {
 								  						echo '--/--/--';
 								  					}else{
-								  						$trials = DBread('exames_trials', "WHERE id_exame = '".$exames[count($exames)-1]['id']."' AND id_user = '".$pesquisador[$i]['id_candidato']."' ORDER BY id DESC LIMIT 1", 'id, time');
-								  						echo date('d/m/Y', strtotime($trials[0]['time']));
+								  						//$trials = DBread('exames_trials', "WHERE id_exame = '".$exames[count($exames)-1]['id']."' AND id_user = '".$pesquisador[$i]['id_candidato']."' ORDER BY id DESC LIMIT 1", 'id, time');
+								  						//echo date('d/m/Y', strtotime($trials[0]['time']));
 								  					}
 								  				?>		
 								  			</td>
