@@ -2,10 +2,10 @@
 	//teste
 	//LOCAL
 	//BANCO DE DADOS
-	define('HOSTNAME', 'sql174.main-hosting.eu');
-	define('USERNAME', 'u356003314_luis');
-	define('PASSWORD', 'a6Ot3nbER1E8');
-	define('DATABASE', 'u356003314_luis');
+	define('HOSTNAME', '200.19.182.3');
+	define('USERNAME', 'root');
+	define('PASSWORD', 'pacce@bd');
+	define('DATABASE', 'sines');
 	define('PREFIX', 'sn');
 	define('CHARSET', 'utf8');
 
