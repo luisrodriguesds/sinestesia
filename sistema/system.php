@@ -11,7 +11,7 @@
 
 		//para o Localhhost
 		$configFile = $_SERVER['DOCUMENT_ROOT'].'/sistema/config.php';
-		var_dump($configFile);
+	
 
 		//Para o remoto
 		// $configFile = '/home/luis/dev/plataforma.git/sistema/config.php';

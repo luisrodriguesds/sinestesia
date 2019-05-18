@@ -16,7 +16,7 @@
 	define('URL_PAINEL', URL_BASE.'painel/');
 
 	//DIRS
-	define('DIR_BASE', $_SERVER['DOCUMENT_ROOT'].'/sinestesia/');
+	define('DIR_BASE', $_SERVER['DOCUMENT_ROOT'].'/');
 	define('DIR_SYSTEM', DIR_BASE.'sistema/');
 	define('DIR_IMG', DIR_BASE.'images/');
 	// define('DIR_IMG_BOL', DIR_BASE.'login/painel/imagensBolsistas/');
