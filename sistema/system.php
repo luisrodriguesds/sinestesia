@@ -10,7 +10,7 @@
 		session_start();
 
 		//para o Localhhost
-		$configFile = $_SERVER['DOCUMENT_ROOT'].'/projetosinestesia/sistema/config.php';
+		$configFile = $_SERVER['DOCUMENT_ROOT'].'/sinestesia/sistema/config.php';
 
 		//Para o remoto
 		// $configFile = '/home/luis/dev/plataforma.git/sistema/config.php';

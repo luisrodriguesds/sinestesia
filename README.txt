@@ -1,3 +1,8 @@
+Bateria de Sinestesia
+Teste para identificar possíveis sinestetas.
+
+Saiba o que é sinesteta aqui https://pt.wikipedia.org/wiki/Sinestesia
+
 
 TITLE: 
 Cube - 100% Fully Responsive Free HTML5 Bootstrap Template
