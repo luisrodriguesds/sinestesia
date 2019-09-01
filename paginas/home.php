@@ -17,17 +17,21 @@
 			A experiência sinestésica é aditiva, ou seja, ela nunca substitui a percepção primária. Se, para um sinesteta música-cor, a nota musical LÁ está associada à cor azul, o som da nota não será de nenhum modo comprometido, porém, diferentemente de outras pessoas, paralelamente à experiência do som acontece a experiência da cor.
       	</p>
       	<p>
-      		<strong>REFERÊCIAS</strong>
+      		<strong>PRINCIPAIS REFERÊNCIAS: </strong>
       	</p>
       	<p>
-			KADOSH, Roi Cohen; HENIK, Avishai. Can synaesthesia research inform cognitive science? Trends In Cognitive Sciences, [s.l.], v. 11, n. 4, p.177-184, abr. 2007. Elsevier BV.
+		Eagleman David M. et al. (2007). A standardized test battery for the study of synesthesia. Journal Of Neuroscience Methods 159:139-145.
+		</p>
+		Simner Julia. (2007). Beyond perception: synaesthesia as a psycholinguistic phenomenon. Trends In Cognitive Sciences 1123-29.
+		<p>
 		</p>
 		<p>
-			SIMNER, Julia. Defining synaesthesia. British Journal Of Psychology, [s.l.], v. 103, n. 1, p.1-15, 11 mar. 2011. Wiley.
-		</p>
-		<p>
-			SIMNER, Julia. Beyond perception: synaesthesia as a psycholinguistic phenomenon. Trends In Cognitive Sciences, [s.l.], v. 11, n. 1, p.23-29, jan. 2007. Elsevier BV.
+		Simner Julia. (2011). Defining synaesthesia. British Journal Of Psychology 10:1-15.
       	</p>
+
+
+
+
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
@@ -76,8 +80,18 @@
       </div>
       <div class="modal-body" style="text-align: justify; padding: 20px;">
       	<p>
-      		A Bateria de Sinestesia é um conjunto de testes elaborado por pesquisadores do Laboratório de Ciências Cognitivas e Psicolinguística da Universidade Federal do Ceará, com base na The Synesthesia Battery (<a href="http://www.synesthete.org">www.synesthete.org</a>), para o diagnóstico de diferentes tipos de sinestesia. O propósito maior da Bateria é identificar sinestetas e com isso facilitar pesquisas sobre Sinestesia no Brasil, servindo como uma ferramenta inteligente para todos os pesquisadores que estão no território nacional.
+      		A Bateria de Sinestesia é um conjunto de testes elaborado por pesquisadores do Laboratório de Ciências Cognitivas e Psicolinguística da Universidade Federal do Ceará,com base na The Synesthesia Battery (Eagleman et al. 2007), para o diagnóstico de diferentes tipos de sinestesia. O propósito maior da Bateria é identificar sinestetas e com isso facilitar pesquisas sobre Sinestesia no Brasil, servindo como uma ferramenta inteligente para todos os pesquisadores que estão no território nacional.
       	</p>
+      		<br><br>
+      		<p>REFERÊNCIAS</p>
+      		
+      		<p>
+			Eagleman David M. et al. (2007). A standardized test battery for the study of synesthesia. Journal Of Neuroscience Methods 159:139-145.	
+      		</p>
+			<p>
+			Eagleman David M. et al. The Synesthesia Battery. Disponível em: <a href="http://www.synesthete.org">www.synesthete.org</a> Acesso em: 20 março. 2018.
+				
+			</p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
@@ -176,7 +190,7 @@
 						<div class="service">
 							<h3><i class="ti-ruler-pencil"></i> O que é a Bateria de Sinesteta?</h3>
 							<!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima quidem quae, assumenda dolores ad pariatur! Deleniti debitis, voluptatem! Omnis enim magnam perspiciatis, natus. Ipsum distinctio, voluptatibus vero laboriosam sequi! Officia fuga quam eveniet quo similique!</p> -->
-							<p>A Bateria de Sinestesia é um conjunto de testes elaborado por pesquisadores do Laboratório de Ciências Cognitivas e Psicolinguística da Universidade Federal do Ceará, com base na The Synesthesia Battery (www.synesthete.org), para o diagnóstico de diferentes tipos de sinestesia. O propósito maior da Bateria é identificar sinestetas e com isso facilitar pesquisas sobre... <a href="#" data-toggle="modal" data-target="#texto-3">Continuar lendo</a></p>
+							<p>A Bateria de Sinestesia é um conjunto de testes elaborado por pesquisadores do Laboratório de Ciências Cognitivas e Psicolinguística da Universidade Federal do Ceará, com base na The Synesthesia Battery (Eagleman et al. 2007), para o diagnóstico de diferentes tipos de sinestesia. O propósito maior da Bateria é identificar sinestetas e com isso facilitar pesquisas sobre... <a href="#" data-toggle="modal" data-target="#texto-3">Continuar lendo</a></p>
 						</div>
 					</div>
 					<div class="col-md-4 col-sm-4 service-wrap">

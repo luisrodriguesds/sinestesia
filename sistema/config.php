@@ -1,18 +1,25 @@
 <?php
-	//teste
+	$db = parse_ini_file(__DIR__ . "/../env.ini", true);
+	$db = $db['BANCO_DE_DADOS'];
+	
 	//LOCAL
 	//BANCO DE DADOS
 	define('HOSTNAME', '200.19.182.3');
 	define('USERNAME', 'root');
 	define('PASSWORD', 'pacce@bd');
 	define('DATABASE', 'sines');
+	define('HOSTNAME', $db['server']);
+	define('PORT', $db['port']);
+	define('USERNAME', $db['user']);
+	define('PASSWORD', $db['pass']);
+	define('DATABASE', $db['data']);
 	define('PREFIX', 'sn');
 	define('CHARSET', 'utf8');
 
-	define('URLBASE', 'https://bateriadesinestesia.herokuapp.com/');
+	define('URLBASE', $db['url']);
 
 	//URLS
-	define('URL_BASE', 'https://bateriadesinestesia.herokuapp.com/login/');
+	define('URL_BASE', $db['url'].'/login/');
 	define('URL_PAINEL', URL_BASE.'painel/');
 
 	//DIRS
@@ -32,33 +39,6 @@
 	define('FILE_CONNECTION', DIR_SYSTEM.'connection.php');
 
 
-	// //REMOTO
-	// //BANCO DE DADOS
-	// define('HOSTNAME', 'localhost');
-	// define('USERNAME', 'root');
-	// define('PASSWORD', '97646060');
-	// define('DATABASE', 'stratus');
-	// define('PREFIX', 'net');
-	// define('CHARSET', 'utf8');
-
-	// define('URLBASE', 'http://201.38.172.21/netClass/');
-
-	// //URLS
-	// define('URL_BASE', 'http://201.38.172.21/netClass/');
-	// define('URL_PAINEL', URL_BASE.'users/');
-
-	// //DIRS
-	// define('DIR_BASE', $_SERVER['DOCUMENT_ROOT'].'/netClass/');
-	// define('DIR_SYSTEM', DIR_BASE.'sistema/');
-	// define('DIR_IMG', DIR_BASE.'images/');
-	// // define('DIR_IMG_BOL', DIR_BASE.'login/users/imagensBolsistas/');
-
-	// define('DIR_PDF', DIR_BASE.'users/pdfs/');
-	// define('DIR_VIDEOS', DIR_BASE.'users/videos/');
-	// //FILES
-	// define('FLIE_CONFIG', DIR_SYSTEM.'config.php');
-	// define('FLIE_HELPERS', DIR_SYSTEM.'helpers.php');
-	// define('FLIE_DATABASE', DIR_SYSTEM.'database.php');
-	// define('FILE_CONNECTION', DIR_SYSTEM.'connection.php');
+	
 
 ?>

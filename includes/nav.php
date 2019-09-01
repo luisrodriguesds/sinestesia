@@ -24,8 +24,20 @@
 			<div class="col-xs-6 text-right menu-1">
 				<ul>
 					<li class="<?php echo (($url[0] == 'home') ? $active : '') ?>"><a href="<?php echo URLBASE; ?>">Home</a></li>
-					<li class="<?php echo (($url[0] == 'equipe-do-laboratio') ? $active : '') ?>"><a href="<?php echo URLBASE.'equipe-do-laboratio'; ?>">Equipe do Laboratóio</a></li>
+					<li class="<?php echo (($url[0] == 'equipe-do-laboratio') ? $active : '') ?>"><a href="<?php echo URLBASE.'equipe-do-laboratio'; ?>">Equipe do Laboratório</a></li>
+					<?php 
+					if (IsLogged()) {
+					?>
+					<li><a href="<?php echo URLBASE.'?logout'; ?>">Sair</a></li>
+
+					<?php
+					}else{
+						?>
+
 					<li class="<?php echo (($url[0] == 'login' || $url[0] == 'registrar') ? $active : '') ?>"><a href="<?php echo URLBASE.'login'; ?>">Login</a></li>
+						<?php
+					}
+					?>
 				</ul>
 			</div>
 			<div class="clear"></div>

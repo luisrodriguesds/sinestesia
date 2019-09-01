@@ -52,11 +52,11 @@
 			<div class="gtco-copyright">
 				<div class="gtco-container">
 					<div class="row">
-						<div class="col-md-6 text-left">
+						<div class="col-md-5 text-left">
 							<p><small>&copy; <?php echo date('Y'); ?> Todos os direitos resevados  </small></p>
 						</div>
-						<div class="col-md-6 text-right">
-							<p><small>Designed by <a href="http://gettemplates.co/" target="_blank">GetTemplates.co</a> and Developer by <a href="http://luisrodriguesdev.com.br" target="_blank">Luis Rodrigues</a></p>
+						<div class="col-md-7 text-right">
+							<p><small>The intellectual property of Synesthesia Battery belongs to David Eagleman. This version in Portuguese was Designed on <a href="http://gettemplates.co/" target="_blank">GetTemplates.co</a> and Developed by <a href="http://luisrodriguesdev.epizy.com/" target="_blank">Luis Rodrigues</a></p>
 						</div>
 					</div>
 				</div>
