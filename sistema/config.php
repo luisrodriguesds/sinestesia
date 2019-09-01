@@ -4,10 +4,6 @@
 	
 	//LOCAL
 	//BANCO DE DADOS
-	define('HOSTNAME', '200.19.182.3');
-	define('USERNAME', 'root');
-	define('PASSWORD', 'pacce@bd');
-	define('DATABASE', 'sines');
 	define('HOSTNAME', $db['server']);
 	define('PORT', $db['port']);
 	define('USERNAME', $db['user']);
@@ -19,7 +15,7 @@
 	define('URLBASE', $db['url']);
 
 	//URLS
-	define('URL_BASE', $db['url'].'/login/');
+	define('URL_BASE', $db['url'].'login/');
 	define('URL_PAINEL', URL_BASE.'painel/');
 
 	//DIRS
